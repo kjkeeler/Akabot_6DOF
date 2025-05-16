@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/akabot_aruco/akabot_aruco.egg-info
+writing ../build/akabot_aruco/akabot_aruco.egg-info/PKG-INFO
+writing dependency_links to ../build/akabot_aruco/akabot_aruco.egg-info/dependency_links.txt
+writing entry points to ../build/akabot_aruco/akabot_aruco.egg-info/entry_points.txt
+writing requirements to ../build/akabot_aruco/akabot_aruco.egg-info/requires.txt
+writing top-level names to ../build/akabot_aruco/akabot_aruco.egg-info/top_level.txt
+writing manifest file '../build/akabot_aruco/akabot_aruco.egg-info/SOURCES.txt'
+reading manifest file '../build/akabot_aruco/akabot_aruco.egg-info/SOURCES.txt'
+writing manifest file '../build/akabot_aruco/akabot_aruco.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kkeeler/ros2_ws/src/akabot-main/build/akabot_aruco/build
+creating /home/kkeeler/ros2_ws/src/akabot-main/build/akabot_aruco/build/lib
+creating /home/kkeeler/ros2_ws/src/akabot-main/build/akabot_aruco/build/lib/akabot_aruco
+copying akabot_aruco/__init__.py -> /home/kkeeler/ros2_ws/src/akabot-main/build/akabot_aruco/build/lib/akabot_aruco
+copying akabot_aruco/detect_aruco_marker.py -> /home/kkeeler/ros2_ws/src/akabot-main/build/akabot_aruco/build/lib/akabot_aruco
+running install
+running install_lib
+creating /home/kkeeler/ros2_ws/src/akabot-main/install/akabot_aruco/lib/python3.10/site-packages/akabot_aruco
+copying /home/kkeeler/ros2_ws/src/akabot-main/build/akabot_aruco/build/lib/akabot_aruco/__init__.py -> /home/kkeeler/ros2_ws/src/akabot-main/install/akabot_aruco/lib/python3.10/site-packages/akabot_aruco
+copying /home/kkeeler/ros2_ws/src/akabot-main/build/akabot_aruco/build/lib/akabot_aruco/detect_aruco_marker.py -> /home/kkeeler/ros2_ws/src/akabot-main/install/akabot_aruco/lib/python3.10/site-packages/akabot_aruco
+byte-compiling /home/kkeeler/ros2_ws/src/akabot-main/install/akabot_aruco/lib/python3.10/site-packages/akabot_aruco/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/kkeeler/ros2_ws/src/akabot-main/install/akabot_aruco/lib/python3.10/site-packages/akabot_aruco/detect_aruco_marker.py to detect_aruco_marker.cpython-310.pyc
+running install_data
+creating /home/kkeeler/ros2_ws/src/akabot-main/install/akabot_aruco/share/ament_index
+creating /home/kkeeler/ros2_ws/src/akabot-main/install/akabot_aruco/share/ament_index/resource_index
+creating /home/kkeeler/ros2_ws/src/akabot-main/install/akabot_aruco/share/ament_index/resource_index/packages
+copying resource/akabot_aruco -> /home/kkeeler/ros2_ws/src/akabot-main/install/akabot_aruco/share/ament_index/resource_index/packages
+copying package.xml -> /home/kkeeler/ros2_ws/src/akabot-main/install/akabot_aruco/share/akabot_aruco
+creating /home/kkeeler/ros2_ws/src/akabot-main/install/akabot_aruco/share/akabot_aruco/launch
+running install_egg_info
+Copying ../build/akabot_aruco/akabot_aruco.egg-info to /home/kkeeler/ros2_ws/src/akabot-main/install/akabot_aruco/lib/python3.10/site-packages/akabot_aruco-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/kkeeler/ros2_ws/src/akabot-main/build/akabot_aruco/install.log'
