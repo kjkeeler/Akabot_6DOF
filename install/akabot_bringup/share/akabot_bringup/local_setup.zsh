@@ -1,1 +1,0 @@
-/home/kkeeler/ros2_ws/build/akabot_bringup/ament_cmake_environment_hooks/local_setup.zsh
