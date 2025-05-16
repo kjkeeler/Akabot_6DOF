@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: skyforge
+    relative_path: urdf/system_arch_robot.urdf.xacro
+  srdf:
+    relative_path: config/skyforge.srdf
+  package_settings:
+    author_name: kkeeler
+    author_email: kkeeler@todo.todo
+    generated_timestamp: 1745358771

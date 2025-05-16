@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing akabot_aruco.egg-info/PKG-INFO
+writing dependency_links to akabot_aruco.egg-info/dependency_links.txt
+writing entry points to akabot_aruco.egg-info/entry_points.txt
+writing requirements to akabot_aruco.egg-info/requires.txt
+writing top-level names to akabot_aruco.egg-info/top_level.txt
+reading manifest file 'akabot_aruco.egg-info/SOURCES.txt'
+writing manifest file 'akabot_aruco.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kkeeler/ros2_ws/install/akabot_aruco/lib/python3.10/site-packages/akabot-aruco.egg-link (link to .)
+
+Installed /home/kkeeler/ros2_ws/build/akabot_aruco
+running symlink_data
+symbolically linking /home/kkeeler/ros2_ws/build/akabot_aruco/resource/akabot_aruco -> /home/kkeeler/ros2_ws/install/akabot_aruco/share/ament_index/resource_index/packages
+symbolically linking /home/kkeeler/ros2_ws/build/akabot_aruco/package.xml -> /home/kkeeler/ros2_ws/install/akabot_aruco/share/akabot_aruco

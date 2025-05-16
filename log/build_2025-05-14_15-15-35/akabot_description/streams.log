@@ -1,0 +1,65 @@
+[0.110s] Invoking command in '/home/kkeeler/ros2_ws/build/akabot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkeeler/ros2_ws/install/skyforge:/home/kkeeler/ros2_ws/install/akabot_aruco:/home/kkeeler/install/moveit_configs_utils:/home/kkeeler/install/rosparam_shortcuts:/home/kkeeler/install/my_robot_controller:/home/kkeeler/install/launch_param_builder:/home/kkeeler/ws_moveit2/install/moveit_configs_utils:/home/kkeeler/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/kkeeler/ros2_ws/src/akabot-main/akabot_description -DCMAKE_INSTALL_PREFIX=/home/kkeeler/ros2_ws/install/akabot_description
+[0.916s] -- The C compiler identification is GNU 11.4.0
+[0.916s] -- The CXX compiler identification is GNU 11.4.0
+[0.916s] -- Detecting C compiler ABI info
+[0.916s] -- Detecting C compiler ABI info - done
+[0.916s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.916s] -- Detecting C compile features
+[0.917s] -- Detecting C compile features - done
+[0.917s] -- Detecting CXX compiler ABI info
+[0.917s] -- Detecting CXX compiler ABI info - done
+[0.917s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.917s] -- Detecting CXX compile features
+[0.917s] -- Detecting CXX compile features - done
+[0.917s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.187s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.695s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[2.215s] -- Configuring done
+[2.220s] -- Generating done
+[2.223s] -- Build files have been written to: /home/kkeeler/ros2_ws/build/akabot_description
+[2.235s] Invoked command in '/home/kkeeler/ros2_ws/build/akabot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkeeler/ros2_ws/install/skyforge:/home/kkeeler/ros2_ws/install/akabot_aruco:/home/kkeeler/install/moveit_configs_utils:/home/kkeeler/install/rosparam_shortcuts:/home/kkeeler/install/my_robot_controller:/home/kkeeler/install/launch_param_builder:/home/kkeeler/ws_moveit2/install/moveit_configs_utils:/home/kkeeler/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/kkeeler/ros2_ws/src/akabot-main/akabot_description -DCMAKE_INSTALL_PREFIX=/home/kkeeler/ros2_ws/install/akabot_description
+[2.240s] Invoking command in '/home/kkeeler/ros2_ws/build/akabot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkeeler/ros2_ws/install/skyforge:/home/kkeeler/ros2_ws/install/akabot_aruco:/home/kkeeler/install/moveit_configs_utils:/home/kkeeler/install/rosparam_shortcuts:/home/kkeeler/install/my_robot_controller:/home/kkeeler/install/launch_param_builder:/home/kkeeler/ws_moveit2/install/moveit_configs_utils:/home/kkeeler/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kkeeler/ros2_ws/build/akabot_description -- -j8 -l8
+[2.352s] Invoked command in '/home/kkeeler/ros2_ws/build/akabot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkeeler/ros2_ws/install/skyforge:/home/kkeeler/ros2_ws/install/akabot_aruco:/home/kkeeler/install/moveit_configs_utils:/home/kkeeler/install/rosparam_shortcuts:/home/kkeeler/install/my_robot_controller:/home/kkeeler/install/launch_param_builder:/home/kkeeler/ws_moveit2/install/moveit_configs_utils:/home/kkeeler/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kkeeler/ros2_ws/build/akabot_description -- -j8 -l8
+[2.354s] Invoking command in '/home/kkeeler/ros2_ws/build/akabot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkeeler/ros2_ws/install/skyforge:/home/kkeeler/ros2_ws/install/akabot_aruco:/home/kkeeler/install/moveit_configs_utils:/home/kkeeler/install/rosparam_shortcuts:/home/kkeeler/install/my_robot_controller:/home/kkeeler/install/launch_param_builder:/home/kkeeler/ws_moveit2/install/moveit_configs_utils:/home/kkeeler/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kkeeler/ros2_ws/build/akabot_description
+[2.372s] -- Install configuration: ""
+[2.372s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/config
+[2.372s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/config/initial_positions.yaml
+[2.372s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/launch
+[2.372s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/launch/robot_state_publisher_launch.py
+[2.373s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/launch/description_launch.py
+[2.373s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/meshes
+[2.373s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/meshes/left_claw.stl
+[2.373s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/meshes/right_claw.stl
+[2.374s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/meshes/wrist.stl
+[2.375s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/meshes/top_plate.stl
+[2.376s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/meshes/d415.dae
+[2.380s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/meshes/claw_base.stl
+[2.381s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/meshes/lower_arm.stl
+[2.382s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/meshes/upper_arm.stl
+[2.384s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/meshes/base_cylinder.stl
+[2.385s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/urdf
+[2.386s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/urdf/akabot_gz.urdf.xacro
+[2.386s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/urdf/depth_camera.xacro
+[2.386s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/urdf/akabot.ros2_control.xacro
+[2.386s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/urdf/inertial_macros.xacro
+[2.386s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/urdf/real_akabot.urdf.xacro
+[2.387s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/urdf/akabot.urdf.xacro
+[2.387s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/urdf/akabot_core.xacro
+[2.387s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/rviz
+[2.387s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/rviz/description.rviz
+[2.388s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/ament_index/resource_index/package_run_dependencies/akabot_description
+[2.388s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/ament_index/resource_index/parent_prefix_path/akabot_description
+[2.388s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/environment/ament_prefix_path.sh
+[2.388s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/environment/ament_prefix_path.dsv
+[2.388s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/environment/path.sh
+[2.388s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/environment/path.dsv
+[2.389s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/local_setup.bash
+[2.389s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/local_setup.sh
+[2.389s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/local_setup.zsh
+[2.389s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/local_setup.dsv
+[2.389s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/package.dsv
+[2.389s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/ament_index/resource_index/packages/akabot_description
+[2.390s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/cmake/akabot_descriptionConfig.cmake
+[2.390s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/cmake/akabot_descriptionConfig-version.cmake
+[2.390s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_description/share/akabot_description/package.xml
+[2.393s] Invoked command in '/home/kkeeler/ros2_ws/build/akabot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkeeler/ros2_ws/install/skyforge:/home/kkeeler/ros2_ws/install/akabot_aruco:/home/kkeeler/install/moveit_configs_utils:/home/kkeeler/install/rosparam_shortcuts:/home/kkeeler/install/my_robot_controller:/home/kkeeler/install/launch_param_builder:/home/kkeeler/ws_moveit2/install/moveit_configs_utils:/home/kkeeler/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kkeeler/ros2_ws/build/akabot_description

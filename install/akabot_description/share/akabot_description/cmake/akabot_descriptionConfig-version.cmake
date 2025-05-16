@@ -1,0 +1,1 @@
+/home/kkeeler/ros2_ws/build/akabot_description/ament_cmake_core/akabot_descriptionConfig-version.cmake

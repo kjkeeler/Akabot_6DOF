@@ -1,0 +1,21 @@
+[0.109s] Invoking command in '/home/kkeeler/ros2_ws/build/akabot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkeeler/ros2_ws/install/skyforge:/home/kkeeler/ros2_ws/install/akabot_aruco:/home/kkeeler/install/moveit_configs_utils:/home/kkeeler/install/rosparam_shortcuts:/home/kkeeler/install/my_robot_controller:/home/kkeeler/install/launch_param_builder:/home/kkeeler/ws_moveit2/install/moveit_configs_utils:/home/kkeeler/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kkeeler/ros2_ws/build/akabot -- -j8 -l8
+[0.741s] Invoked command in '/home/kkeeler/ros2_ws/build/akabot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkeeler/ros2_ws/install/skyforge:/home/kkeeler/ros2_ws/install/akabot_aruco:/home/kkeeler/install/moveit_configs_utils:/home/kkeeler/install/rosparam_shortcuts:/home/kkeeler/install/my_robot_controller:/home/kkeeler/install/launch_param_builder:/home/kkeeler/ws_moveit2/install/moveit_configs_utils:/home/kkeeler/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kkeeler/ros2_ws/build/akabot -- -j8 -l8
+[0.743s] Invoking command in '/home/kkeeler/ros2_ws/build/akabot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkeeler/ros2_ws/install/skyforge:/home/kkeeler/ros2_ws/install/akabot_aruco:/home/kkeeler/install/moveit_configs_utils:/home/kkeeler/install/rosparam_shortcuts:/home/kkeeler/install/my_robot_controller:/home/kkeeler/install/launch_param_builder:/home/kkeeler/ws_moveit2/install/moveit_configs_utils:/home/kkeeler/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kkeeler/ros2_ws/build/akabot
+[0.770s] -- Install configuration: ""
+[0.770s] -- Execute custom install script
+[0.770s] -- Up-to-date symlink: /home/kkeeler/ros2_ws/install/akabot/share/ament_index/resource_index/package_run_dependencies/akabot
+[0.771s] -- Up-to-date symlink: /home/kkeeler/ros2_ws/install/akabot/share/ament_index/resource_index/parent_prefix_path/akabot
+[0.771s] -- Up-to-date symlink: /home/kkeeler/ros2_ws/install/akabot/share/akabot/environment/ament_prefix_path.sh
+[0.771s] -- Up-to-date symlink: /home/kkeeler/ros2_ws/install/akabot/share/akabot/environment/ament_prefix_path.dsv
+[0.776s] -- Up-to-date symlink: /home/kkeeler/ros2_ws/install/akabot/share/akabot/environment/path.sh
+[0.776s] -- Up-to-date symlink: /home/kkeeler/ros2_ws/install/akabot/share/akabot/environment/path.dsv
+[0.777s] -- Up-to-date symlink: /home/kkeeler/ros2_ws/install/akabot/share/akabot/local_setup.bash
+[0.777s] -- Up-to-date symlink: /home/kkeeler/ros2_ws/install/akabot/share/akabot/local_setup.sh
+[0.777s] -- Up-to-date symlink: /home/kkeeler/ros2_ws/install/akabot/share/akabot/local_setup.zsh
+[0.777s] -- Up-to-date symlink: /home/kkeeler/ros2_ws/install/akabot/share/akabot/local_setup.dsv
+[0.778s] -- Symlinking: /home/kkeeler/ros2_ws/install/akabot/share/akabot/package.dsv
+[0.793s] -- Up-to-date symlink: /home/kkeeler/ros2_ws/install/akabot/share/ament_index/resource_index/packages/akabot
+[0.793s] -- Up-to-date symlink: /home/kkeeler/ros2_ws/install/akabot/share/akabot/cmake/akabotConfig.cmake
+[0.793s] -- Up-to-date symlink: /home/kkeeler/ros2_ws/install/akabot/share/akabot/cmake/akabotConfig-version.cmake
+[0.794s] -- Up-to-date symlink: /home/kkeeler/ros2_ws/install/akabot/share/akabot/package.xml
+[0.823s] Invoked command in '/home/kkeeler/ros2_ws/build/akabot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkeeler/ros2_ws/install/skyforge:/home/kkeeler/ros2_ws/install/akabot_aruco:/home/kkeeler/install/moveit_configs_utils:/home/kkeeler/install/rosparam_shortcuts:/home/kkeeler/install/my_robot_controller:/home/kkeeler/install/launch_param_builder:/home/kkeeler/ws_moveit2/install/moveit_configs_utils:/home/kkeeler/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kkeeler/ros2_ws/build/akabot

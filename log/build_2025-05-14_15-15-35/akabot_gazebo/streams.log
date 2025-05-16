@@ -1,0 +1,46 @@
+[0.373s] Invoking command in '/home/kkeeler/ros2_ws/build/akabot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkeeler/ros2_ws/install/skyforge:/home/kkeeler/ros2_ws/install/akabot_aruco:/home/kkeeler/install/moveit_configs_utils:/home/kkeeler/install/rosparam_shortcuts:/home/kkeeler/install/my_robot_controller:/home/kkeeler/install/launch_param_builder:/home/kkeeler/ws_moveit2/install/moveit_configs_utils:/home/kkeeler/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/kkeeler/ros2_ws/src/akabot-main/akabot_gazebo -DCMAKE_INSTALL_PREFIX=/home/kkeeler/ros2_ws/install/akabot_gazebo
+[0.870s] -- The C compiler identification is GNU 11.4.0
+[0.870s] -- The CXX compiler identification is GNU 11.4.0
+[0.870s] -- Detecting C compiler ABI info
+[0.870s] -- Detecting C compiler ABI info - done
+[0.870s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.870s] -- Detecting C compile features
+[0.870s] -- Detecting C compile features - done
+[0.870s] -- Detecting CXX compiler ABI info
+[0.979s] -- Detecting CXX compiler ABI info - done
+[0.996s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.996s] -- Detecting CXX compile features
+[0.997s] -- Detecting CXX compile features - done
+[1.022s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.374s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.839s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[2.295s] -- Configuring done
+[2.300s] -- Generating done
+[2.301s] -- Build files have been written to: /home/kkeeler/ros2_ws/build/akabot_gazebo
+[2.308s] Invoked command in '/home/kkeeler/ros2_ws/build/akabot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkeeler/ros2_ws/install/skyforge:/home/kkeeler/ros2_ws/install/akabot_aruco:/home/kkeeler/install/moveit_configs_utils:/home/kkeeler/install/rosparam_shortcuts:/home/kkeeler/install/my_robot_controller:/home/kkeeler/install/launch_param_builder:/home/kkeeler/ws_moveit2/install/moveit_configs_utils:/home/kkeeler/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/kkeeler/ros2_ws/src/akabot-main/akabot_gazebo -DCMAKE_INSTALL_PREFIX=/home/kkeeler/ros2_ws/install/akabot_gazebo
+[2.310s] Invoking command in '/home/kkeeler/ros2_ws/build/akabot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkeeler/ros2_ws/install/skyforge:/home/kkeeler/ros2_ws/install/akabot_aruco:/home/kkeeler/install/moveit_configs_utils:/home/kkeeler/install/rosparam_shortcuts:/home/kkeeler/install/my_robot_controller:/home/kkeeler/install/launch_param_builder:/home/kkeeler/ws_moveit2/install/moveit_configs_utils:/home/kkeeler/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kkeeler/ros2_ws/build/akabot_gazebo -- -j8 -l8
+[2.394s] Invoked command in '/home/kkeeler/ros2_ws/build/akabot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkeeler/ros2_ws/install/skyforge:/home/kkeeler/ros2_ws/install/akabot_aruco:/home/kkeeler/install/moveit_configs_utils:/home/kkeeler/install/rosparam_shortcuts:/home/kkeeler/install/my_robot_controller:/home/kkeeler/install/launch_param_builder:/home/kkeeler/ws_moveit2/install/moveit_configs_utils:/home/kkeeler/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kkeeler/ros2_ws/build/akabot_gazebo -- -j8 -l8
+[2.395s] Invoking command in '/home/kkeeler/ros2_ws/build/akabot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkeeler/ros2_ws/install/skyforge:/home/kkeeler/ros2_ws/install/akabot_aruco:/home/kkeeler/install/moveit_configs_utils:/home/kkeeler/install/rosparam_shortcuts:/home/kkeeler/install/my_robot_controller:/home/kkeeler/install/launch_param_builder:/home/kkeeler/ws_moveit2/install/moveit_configs_utils:/home/kkeeler/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kkeeler/ros2_ws/build/akabot_gazebo
+[2.421s] -- Install configuration: ""
+[2.421s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_gazebo/share/akabot_gazebo/config
+[2.422s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_gazebo/share/akabot_gazebo/config/akabot_bridge.yaml
+[2.424s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_gazebo/share/akabot_gazebo/launch
+[2.424s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_gazebo/share/akabot_gazebo/launch/gz_launch.py
+[2.424s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_gazebo/share/akabot_gazebo/worlds
+[2.425s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_gazebo/share/akabot_gazebo/worlds/pick_and_place.world
+[2.425s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_gazebo/share/ament_index/resource_index/package_run_dependencies/akabot_gazebo
+[2.425s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_gazebo/share/ament_index/resource_index/parent_prefix_path/akabot_gazebo
+[2.425s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_gazebo/share/akabot_gazebo/environment/ament_prefix_path.sh
+[2.425s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_gazebo/share/akabot_gazebo/environment/ament_prefix_path.dsv
+[2.425s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_gazebo/share/akabot_gazebo/environment/path.sh
+[2.425s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_gazebo/share/akabot_gazebo/environment/path.dsv
+[2.425s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_gazebo/share/akabot_gazebo/local_setup.bash
+[2.425s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_gazebo/share/akabot_gazebo/local_setup.sh
+[2.426s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_gazebo/share/akabot_gazebo/local_setup.zsh
+[2.426s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_gazebo/share/akabot_gazebo/local_setup.dsv
+[2.426s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_gazebo/share/akabot_gazebo/package.dsv
+[2.426s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_gazebo/share/ament_index/resource_index/packages/akabot_gazebo
+[2.426s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_gazebo/share/akabot_gazebo/cmake/akabot_gazeboConfig.cmake
+[2.426s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_gazebo/share/akabot_gazebo/cmake/akabot_gazeboConfig-version.cmake
+[2.427s] -- Installing: /home/kkeeler/ros2_ws/install/akabot_gazebo/share/akabot_gazebo/package.xml
+[2.431s] Invoked command in '/home/kkeeler/ros2_ws/build/akabot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkeeler/ros2_ws/install/skyforge:/home/kkeeler/ros2_ws/install/akabot_aruco:/home/kkeeler/install/moveit_configs_utils:/home/kkeeler/install/rosparam_shortcuts:/home/kkeeler/install/my_robot_controller:/home/kkeeler/install/launch_param_builder:/home/kkeeler/ws_moveit2/install/moveit_configs_utils:/home/kkeeler/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kkeeler/ros2_ws/build/akabot_gazebo
