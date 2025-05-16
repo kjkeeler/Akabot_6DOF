@@ -6,28 +6,16 @@
   <xacro:property name="link_length" value="2"/>
   <xacro:property name="link_radius" value="0.14"/>
   <xacro:property name="joint_size" value="0.180"/>
-  <xacro:property name="end_size" value="0.100"/>
+  <xacro:property name="end_size" value="0.150"/>
   <xacro:property name="joint_limit" value="${pi}"/>
 
   <!-- Materials -->
-  <material name="blue">
-    <color rgba="0 0 1 1"/>
-  </material>
-  <material name="red">
-    <color rgba="1 0 0 1"/>
-  </material>
-  <material name="yellow">
-    <color rgba="1 1 0 1"/>
-  </material>
-  <material name="magenta">
-    <color rgba="1 0 1 1"/>
-  </material>
-  <material name="cyan">
-    <color rgba="0 1 1 1"/>
-  </material>
-  <material name="green">
-    <color rgba="0 1 0 1"/>
-  </material>
+  <material name="blue"><color rgba="0 0 1 1"/></material>
+  <material name="red"><color rgba="1 0 0 1"/></material>
+  <material name="yellow"><color rgba="1 1 0 1"/></material>
+  <material name="magenta"><color rgba="1 0 1 1"/></material>
+  <material name="cyan"><color rgba="0 1 1 1"/></material>
+  <material name="green"><color rgba="0 1 0 1"/></material>
 
   <!-- World Link -->
   <link name="world"/>
@@ -42,34 +30,125 @@
     <origin xyz="0 0 0" rpy="0 0 0"/>
   </joint>
 
-  <!-- Link 1 with STL Mesh -->
-  <link name="link1">
+  <!-- Joint 1 Visual -->
+  <link name="joint1_visual">
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
-      <geometry>
-        <mesh filename="${mesh_dir}/robot_arm.stl"/>
-      </geometry>
-      <material name="blue"/>
+      <geometry><sphere radius="${joint_size}"/></geometry>
+      <material name="green"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
-      <geometry>
-        <mesh filename="${mesh_dir}/robot_arm.stl"/>
-      </geometry>
+      <geometry><sphere radius="${joint_size}"/></geometry>
     </collision>
   </link>
+  <joint name="fixed_joint1_visual" type="fixed">
+    <parent link="base_link"/>
+    <child link="joint1_visual"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
 
   <!-- Joint 1 -->
   <joint name="joint1" type="revolute">
-    <parent link="base_link"/>
+    <parent link="joint1_visual"/>
     <child link="link1"/>
     <origin xyz="0 0 0" rpy="0 0 0"/>
-    <axis xyz="0 0 1"/>
+    <axis xyz="1 0 0"/>
     <limit lower="-${joint_limit}" upper="${joint_limit}" effort="10" velocity="1.0"/>
     <dynamics damping="0.1" friction="0.1"/>
   </joint>
 
-  <!-- Additional Links and Joints (continue as before) -->
-  <!-- ... -->
+  <link name="link1">
+    <visual>
+      <origin xyz="0 0 ${link_length / 2}" rpy="0 0 0"/>
+      <geometry><cylinder length="${link_length}" radius="${link_radius}"/></geometry>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 ${link_length / 2}" rpy="0 0 0"/>
+      <geometry><cylinder length="${link_length}" radius="${link_radius}"/></geometry>
+    </collision>
+  </link>
+
+  <!-- Joint 2 Visual -->
+  <link name="joint2_visual">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry><sphere radius="${joint_size}"/></geometry>
+      <material name="magenta"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry><sphere radius="${joint_size}"/></geometry>
+    </collision>
+  </link>
+  <joint name="fixed_joint2_visual" type="fixed">
+    <parent link="link1"/>
+    <child link="joint2_visual"/>
+    <origin xyz="0 0 ${link_length}" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Joint 2 -->
+  <joint name="joint2" type="revolute">
+    <parent link="joint2_visual"/>
+    <child link="link2"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-${joint_limit}" upper="${joint_limit}" effort="10" velocity="1.0"/>
+    <dynamics damping="0.1" friction="0.1"/>
+  </joint>
+
+  <link name="link2">
+    <visual>
+      <origin xyz="0 0 ${link_length / 2}" rpy="0 0 0"/>
+      <geometry><cylinder length="${link_length}" radius="${link_radius}"/></geometry>
+      <material name="red"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 ${link_length / 2}" rpy="0 0 0"/>
+      <geometry><cylinder length="${link_length}" radius="${link_radius}"/></geometry>
+    </collision>
+  </link>
+
+  <!-- Joint 3 Visual -->
+  <link name="joint3_visual">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry><sphere radius="${joint_size}"/></geometry>
+      <material name="cyan"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry><sphere radius="${joint_size}"/></geometry>
+    </collision>
+  </link>
+  <joint name="fixed_joint3_visual" type="fixed">
+    <parent link="link2"/>
+    <child link="joint3_visual"/>
+    <origin xyz="0 0 ${link_length}" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Joint 3 -->
+  <joint name="joint3" type="revolute">
+    <parent link="joint3_visual"/>
+    <child link="end_effector"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-${joint_limit}" upper="${joint_limit}" effort="10" velocity="1.0"/>
+    <dynamics damping="0.1" friction="0.1"/>
+  </joint>
+
+  <!-- End Effector -->
+  <link name="end_effector">
+    <visual>
+      <origin xyz="0 0 ${end_size}" rpy="0 0 0"/>
+      <geometry><sphere radius="${end_size}"/></geometry>
+      <material name="yellow"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 ${end_size}" rpy="0 0 0"/>
+      <geometry><sphere radius="${end_size}"/></geometry>
+    </collision>
+  </link>
 
 </robot>
