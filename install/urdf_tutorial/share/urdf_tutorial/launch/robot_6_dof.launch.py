@@ -1,1 +1,0 @@
-/home/kkeeler/ros2_ws/src/urdf_tutorial/launch/robot_6_dof.launch.py
